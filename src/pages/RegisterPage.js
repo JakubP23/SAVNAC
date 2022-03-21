@@ -17,7 +17,7 @@ export default function SignUpPage() {
                 <p>
                     <label>Email address</label><br/>
                     <input type="email" name="email" required />
-                </p>
+                </p> 
                 <p>
                     <label>Password</label><br/>
                     <input type="password" name="password" requiredc />
@@ -32,6 +32,7 @@ export default function SignUpPage() {
             <footer>
                 <p><Link to="/">Back to Homepage</Link>.</p>
             </footer>
+            <h1>hellow world</h1>
         </div>
     )
 
