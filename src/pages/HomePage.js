@@ -1,13 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import 'bootstrap/dist/css/bootstrap.min.css';
-
-
 
 export default function HomePage() {
     return (
-        <div>
-           
+        <div className="text-center">
+            <h1 className="main-title home-page-title">Savnac</h1>
+            <Link to="/">
+                <button className="primary-button">Log out</button>
+            </Link>
         </div>
     )
 }
